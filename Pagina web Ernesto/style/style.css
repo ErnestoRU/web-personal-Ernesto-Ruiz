@@ -1,0 +1,60 @@
+body{
+    background-color: #F7C05C;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    
+    left: 0%;
+    top: 0%;
+    right: 0%;
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+}
+.fotocabecera{
+    width: 101%;
+    height: 26.8%;
+}
+.imagen{
+    width: 100%;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 10%;
+
+    background-color: orangered;
+
+    align-items: center;
+}
+.menu-enlaces{
+    border-color: black;
+    border: solid;
+    border-width: 0.7vh;
+    border-bottom-width: 0.8vh;
+    text-decoration: none;
+    padding: 4%;
+    background-color: orange;
+    color: black;
+    text-shadow: 2px 1.5px 7px grey;
+
+}
+.enlace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+}
+.img{
+    width: 30%;
+}
